@@ -63,7 +63,7 @@ export interface Project {
       logo: '/projecticons/website.png',
       title: 'Personal Website',
       description: 'My personal website built using Next.js and Typescript, and deployed using Vercel.',
-      link: 'https://github.com/MekaSid/PersonalWebsite',
+      link: 'https://github.com/MekaSid/MyPersonalWebsite',
       languages: [
         { icon: '/languages/react.png', name: 'React'},
         { icon: '/languages/typescript.png', name: 'Typescript' },
