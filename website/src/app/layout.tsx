@@ -23,7 +23,6 @@ export default function RootLayout({
   return (
     <html lang="en">
     <head>
-        <link rel="icon" href="/profile.png" /> {/* Update the path if needed */}
       </head>
       <body className={geistMono.className}>
 	        <Navbar/>

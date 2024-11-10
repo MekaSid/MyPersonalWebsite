@@ -1,20 +1,22 @@
+import React from 'react';
+import Image from 'next/image';
 
-import Heading from "../components/mainpage/Heading";
-import ProfileImage from "../components/mainpage/ProfileImage";
-import Description from "../components/mainpage/Description";
-
-export default function Home() {
+const About: React.FC = () => {
   return (
     <div className="container">
-      <main className="main-content">
-        <div className="content-wrapper">
-          <ProfileImage />
-          <div className="text-content">
-            <Heading />
-            <Description />
-          </div>
-        </div>
-      </main>
+      <Image
+        src="/profilepicture.png"
+        alt="Profile"
+        className="profilePic"
+        width={500}
+        height={500}
+      />
+      <h1 className="nameTitle">Sid Meka</h1>
+      <p className="description">
+        Hi, I am Sid Meka and this is my personal website. I like to practice the piano, play basketball, and cook food for my friends and family.
+      </p>
     </div>
   );
-}
+};
+
+export default About;

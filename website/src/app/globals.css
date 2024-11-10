@@ -1,41 +1,29 @@
-
 .container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  min-height: 100vh;
-  padding: 20px;
+  text-align: center;
+  padding: 100px;
+  max-width: 600px;
+  margin: auto;
 }
 
-.main-content {
-  max-width: 800px;
-  width: 100%;
-}
-
-.content-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.image-container {
-  flex-shrink: 0;
-  margin-right: 20px;
-}
-
-.profile-image {
+.profilePic {
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 
-.text-content {
-  flex: 1;
-}
-
-.heading {
-  font-size: 3rem;
+.nameTitle {
+  font-size: 1.8rem;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
 .description {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  color: #555;
   line-height: 1.6;
 }
