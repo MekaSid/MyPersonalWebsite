@@ -31,7 +31,7 @@ export interface Photo {
     { src: '/gallery/ciutat.jpg', alt: 'Barcelona' , caption: "Ciutat Vella, Barcelona"},
     { src: '/gallery/guell.jpg', alt: 'Barcelona' , caption: "Park Güell, Barcelona"},
     { src: '/gallery/flowers.jpg', alt: 'Barcelona' , caption: "Art Museum, Barcelona"},
-    { src: '/gallery/cathedralmilan.jpg', alt: 'Milan' , caption: "The Catherdral, Milan"},
+    { src: '/gallery/cat.jpg', alt: 'Milan' , caption: "The Catherdral, Milan"},
     { src: '/gallery/starbucks.jpg', alt: 'Milan' , caption: "Reserve Roastery, Milan"},
     { src: '/gallery/lion.jpg', alt: 'Luzern' , caption: "The Lion Monument, Luzern"},
     { src: '/gallery/egypt.jpg', alt: 'Billund' , caption: "The Pharaoh, Billund"},
